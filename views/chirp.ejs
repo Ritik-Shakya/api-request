@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+<main class="form-signin w-100 m-auto">
+    <form action="/" method="POST" class="chirpPage">
+      <img class="mb-4" src="images/image.png" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Don't be shy, just write.</h1>
+  
+      <div class="form-floating">
+        <input type="text" class="form-control" name="title" id="bbb" >
+        <label >Title</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control"  name="content" id="aaa">
+        <label >Blog</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control"  name="author" id="ccc">
+        <label >author</label>
+      </div>
+      
+  
+      <input class="btn btn-primary w-20 py-2" type="submit" value="Submit">
+      
+      
+    </form>
+    
+  </main>
+
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,29 @@
+<%- include("partials/header.ejs") %>
+<main class="form-signin w-100 m-auto">
+    <form action="/posts/<%= result.id %>" method="post" class="chirpPage">
+      <img class="mb-4" src="images/image.png" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Modify Your Masterpiece.</h1>
+  
+      <div class="form-floating">
+        <input type="text" class="form-control" name="title" id="bb" value="<%= result.title %>" >
+       
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control"  name="content" id="aa" value="<%= result.content %>">
+      
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control"  name="author" id="cc" value="<%= result.author %>">
+       
+      </div>
+      
+  
+      <input class="btn btn-primary w-20 py-2" type="submit" value="Submit">
+      
+      
+    </form>
+    
+  </main>
+
+
+<%- include("partials/footer.ejs") %>

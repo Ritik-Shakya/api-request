@@ -1,0 +1,73 @@
+.aboutme{
+display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center;}
+.gradient-background {
+    background: linear-gradient(300deg, #41C9E2, #ff4c68, #49243E);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.profile{
+    border-radius: 50%;
+}
+.contactme{
+    height: 65vh;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center;
+}
+.contactform {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center;
+}
+.feedback-inpu{
+    width: 300px;
+}
+.chirpPage{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+ align-items: center;
+}
+#aa {
+    height: 150px;
+    width: 500px;
+}
+.small{
+  display: flex;
+  flex-direction: column;
+}
+#cc {
+  width: 500px;
+}
+#bb{
+  width: 500px;
+}
+#aaa {
+  height: 150px;
+  width: 500px;
+}
+
+#ccc {
+width: 500px;
+}
+#bbb {
+width: 500px;
+}
